@@ -1,0 +1,168 @@
+﻿Identifier,Kind,Term
+"# Special instances of Type terms for very large objects like boats, bridges, and trains",,
+20901,1,"Object, Structure"
+20902,1,"Object, Transportation"
+,,
+22001,1,"Image, Art, Other Art"
+22002,1,"Image, Other Image"
+22003,1,"Image, Photograph, Digital Photograph"
+22004,1,"Publication, Booklet"
+22005,1,"Publication, Other Publication"
+22006,1,Reference
+22007,1,"Document, Oral History"
+22008,1,"Image, Photograph, Photographic Print, Panorama"
+22009,1,"Image, Art, Illustration"
+,,
+# Objects that can be both Type and a Subject have kind 3,,
+21001,3,"Object, Fishing, Fish Trap, Lobster Trap"
+21002,2,"Transportation, Other Transportation"
+21003,2,"Vessels, Boat, Sailboat, Friendship Sloop"
+21004,2,"Vessels, Boat, Lobster Boat"
+21005,2,"Vessels, Other Vessels"
+21006,3,"Object, Other Object"
+21007,2,"Transportation, Railroad"
+,,
+23001,2,"Businesses, Blacksmith Business"
+23002,2,"Businesses, Boatbuilding Business"
+23003,2,"Businesses, Bowling Alley Business"
+23004,2,"Businesses, Building Business"
+23005,2,"Businesses, Cannery Business"
+23006,2,"Businesses, Carpentry Business"
+23007,2,"Businesses, Farming"
+23008,2,"Businesses, Ferry Service"
+23009,2,"Businesses, Fishery Business"
+23010,2,"Businesses, Automotive Repair Business"
+23011,2,"Businesses, Laundromat Business"
+23012,2,"Businesses, Lodging Business"
+23013,2,"Businesses, Market Business"
+23014,2,"Businesses, Medical Business"
+23015,2,"Businesses, Other Business"
+23016,2,"Businesses, Publishing Business"
+23017,2,"Businesses, Quarry Operation"
+23018,2,"Businesses, Real Estate Business"
+23019,2,"Businesses, Restaurant Business"
+23020,2,"Businesses, Service Station Business"
+23021,2,"Businesses, Service Business"
+23022,2,"Businesses, Business Shop"
+23023,2,"Businesses, Store Business"
+23024,2,"Businesses, Photography Business"
+23025,2,"Businesses, Theater Business"
+23026,2,"Businesses, Transportation Business"
+,,
+23101,2,Events
+23102,2,"Events, Fire"
+23103,2,"Events, Gala"
+23104,2,"Events, Shipwreck"
+,,
+23201,2,"Nature, Animals"
+23202,2,"Nature, Animals, Birds"
+23203,2,"Nature, Animals, Cats"
+23204,2,"Nature, Animals, Dogs"
+23205,2,"Nature, Animals, Shellfish"
+23206,2,"Nature, Animals, Shellfish, Lobsters"
+23207,2,"Nature, Animals, Horses"
+23208,2,"Nature, Plants"
+23209,2,"Nature, Seasons"
+23210,2,"Nature, Seasons, Autumn"
+23211,2,"Nature, Seasons, Spring"
+23212,2,"Nature, Seasons, Summer"
+23213,2,"Nature, Seasons, Winter"
+,,
+23301,2,Recreation
+23302,2,"Recreation, Hiking"
+23303,2,"Recreation, Sports"
+23304,2,"Recreation, Sports, Baseball"
+23305,2,"Recreation, Sports, Basketball"
+23306,2,"Recreation, Sports, Golf"
+23307,2,"Recreation, Hunting"
+,,
+23501,2,Organizations
+23502,2,"Organizations, Religious"
+23503,2,"Organizations, Civic"
+23504,2,"Organizations, Civic, Public Library"
+23505,2,"Organizations, School Institution"
+,,
+23601,2,People
+23602,2,Other
+,,
+23701,2,Places
+23702,2,"Places, Address"
+23703,2,"Places, Camp"
+23704,2,"Places, Carriage Road"
+23705,2,"Places, Cemetery"
+23706,2,"Places, City"
+23707,2,"Places, Club"
+23708,2,"Places, Garden"
+23709,2,"Places, Harbor"
+23710,2,"Places, Hiking Trail"
+23711,2,"Places, Island"
+23712,2,"Places, Lake"
+23713,2,"Places, Landscape"
+23714,2,"Places, Mountain"
+23715,2,"Places, Ocean"
+23716,2,"Places, Park"
+23717,2,"Places, River"
+23718,2,"Places, Road"
+23719,2,"Places, Shore"
+23720,2,"Places, Sound"
+23721,2,"Places, Spring"
+23722,2,"Places, Stream"
+23723,2,"Places, Town"
+23724,2,"Places, Yacht Club"
+23725,2,"Places, Path"
+,,
+29001,4,Acadia National Park
+29002,4,"Acadia National Park, HCTPR"
+29003,4,"Acadia National Park, Lafayette National Park"
+29004,4,"Acadia National Park, Sieur de Monts National Monument"
+29005,4,Bar Harbor
+29006,4,"Bar Harbor, Eden"
+29007,4,"Bar Harbor, Otter Creek"
+29008,4,"Bar Harbor, Town Hill"
+29009,4,Cranberry Isles
+29010,4,"Cranberry Isles, Baker Island"
+29011,4,"Cranberry Isles, Bear Island"
+29012,4,"Cranberry Isles, Great Cranberry Island"
+29013,4,"Cranberry Isles, Little Cranberry Island"
+29014,4,"Cranberry Isles, Little Cranberry Island, Islesford"
+29015,4,"Cranberry Isles, Sutton Island"
+29016,4,Frenchboro
+29017,4,"Frenchboro, Black Island"
+29018,4,"Frenchboro, Great Duck Island"
+29019,4,"Frenchboro, Little Duck Island"
+29020,4,"Frenchboro, Placentia Island"
+29021,4,Mount Desert
+29022,4,Mount Desert Island
+29023,4,Mount Desert Rock
+29024,4,"Mount Desert, Bartletts Island"
+29025,4,"Mount Desert, Hall Quarry"
+29026,4,"Mount Desert, Northeast Harbor"
+29027,4,"Mount Desert, Pretty Marsh"
+29028,4,"Mount Desert, Rum Island"
+29029,4,"Mount Desert, Seal Harbor"
+29030,4,"Mount Desert, Somesville"
+29031,4,"Mount Desert, Sound"
+29032,4,Southwest Harbor
+29033,4,"Southwest Harbor, Greening Island"
+29034,4,"Southwest Harbor, Manset"
+29035,4,"Southwest Harbor, Seawall"
+29036,4,Swans Island
+29037,4,Tremont
+29038,4,"Tremont, Bass Harbor"
+29039,4,"Tremont, Bass Harbor, McKinley"
+29040,4,"Tremont, Bernard"
+29041,4,"Tremont, Center"
+29042,4,"Tremont, Great Gott Island"
+29043,4,"Tremont, Rumill Island"
+29044,4,"Tremont, Seal Cove"
+29045,4,"Tremont, West Tremont"
+29046,4,"Acadia National Park, Cadillac Mountain"
+29047,4,"Acadia National Park, Thunder Hole"
+29048,4,"Acadia National Park, Isle as Haut"
+29049,4,"Acadia National Park, Schoodic Peninsula"
+29050,4,"Acadia National Park, Jordan Pond"
+29051,4,Other Places
+29052,4,Maine
+29053,4,New England
+29054,4,United States
+29055,4,International
