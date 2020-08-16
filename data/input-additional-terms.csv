@@ -1,8 +1,6 @@
 ﻿Identifier,Kind,Term
-"# Special instances of Type terms for very large objects like boats, bridges, and trains",,
-20901,1,"Object, Structure"
-20902,1,"Object, Transportation"
 ,,
+# Kind 1 is Type.,,
 22001,1,"Image, Art, Other Art"
 22002,1,"Image, Other Image"
 22003,1,"Image, Photograph, Digital Photograph"
@@ -14,7 +12,12 @@
 22009,1,"Image, Art, Illustration"
 22010,1,Set
 ,,
-# Objects that can be both Type and a Subject have kind 3,,
+"# Special instances of Type terms for very large objects like boats, bridges, and trains",,
+20901,1,"Object, Structure"
+20902,1,"Object, Transportation"
+,,
+# Special additions that don't fall into any of the categories below.,,
+# Kind 3 is Type OR Subject (only used for Objects),,
 21001,3,"Object, Fishing, Fish Trap, Lobster Trap"
 21002,2,"Transportation, Other Transportation"
 21003,2,"Vessels, Boat, Sailboat, Friendship Sloop"
@@ -22,7 +25,9 @@
 21005,2,"Vessels, Other Vessels"
 21006,3,"Object, Other Object"
 21007,2,"Transportation, Railroad"
+21008,2,none
 ,,
+# Kind 2 is Subject.,,
 23001,2,"Businesses, Blacksmith Business"
 23002,2,"Businesses, Boatbuilding Business"
 23003,2,"Businesses, Bowling Alley Business"
@@ -68,6 +73,7 @@
 23211,2,"Nature, Seasons, Spring"
 23212,2,"Nature, Seasons, Summer"
 23213,2,"Nature, Seasons, Winter"
+23214,2,Nature
 ,,
 23301,2,Recreation
 23302,2,"Recreation, Hiking"
@@ -112,6 +118,7 @@
 23724,2,"Places, Yacht Club"
 23725,2,"Places, Path"
 ,,
+# Kind 4 is Place.,,
 29001,4,Acadia National Park
 29002,4,"Acadia National Park, HCTPR"
 29003,4,"Acadia National Park, Lafayette National Park"
