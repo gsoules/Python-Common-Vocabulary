@@ -193,11 +193,11 @@ class CommonVocabularyGenerator:
             if node.common_vocabulary_term.startswith('Object'):
                 node.term_kind = TERM_KIND_TYPE_AND_SUBJECT
             elif node.common_vocabulary_term.startswith('Structures'):
-                node.term_kind = TERM_KIND_SUBJECT
+                node.term_kind = TERM_KIND_TYPE_AND_SUBJECT
             elif node.common_vocabulary_term.startswith('Transportation'):
-                node.term_kind = TERM_KIND_SUBJECT
+                node.term_kind = TERM_KIND_TYPE_AND_SUBJECT
             elif node.common_vocabulary_term.startswith('Vessels'):
-                node.term_kind = TERM_KIND_SUBJECT
+                node.term_kind = TERM_KIND_TYPE_AND_SUBJECT
             else:
                 node.term_kind = TERM_KIND_TYPE
 
