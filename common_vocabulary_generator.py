@@ -156,6 +156,13 @@ class CommonVocabularyGenerator:
             self.create_node_for_non_nomenclature_term(identifier, kind, term)
 
     @staticmethod
+    def is_huge_object(term):
+        # Huge objects are things like buildings, bridges, and boats that have their own top-level
+        # term e.g. 'Structures', but when used as a Type are placed beneath `Object`. For example,
+        # as a Subject, a bridge is a structure, but as a Type it's an object.
+        return term.startswith('Structures') or term.startswith('Transportation') or term.startswith('Vessels')
+
+    @staticmethod
     def normalize_term(term):
         normalized_term = ''
         parts = term.split(',')
@@ -192,11 +199,7 @@ class CommonVocabularyGenerator:
             # Set the node's kind.
             if node.common_vocabulary_term.startswith('Object'):
                 node.term_kind = TERM_KIND_TYPE_AND_SUBJECT
-            elif node.common_vocabulary_term.startswith('Structures'):
-                node.term_kind = TERM_KIND_TYPE_AND_SUBJECT
-            elif node.common_vocabulary_term.startswith('Transportation'):
-                node.term_kind = TERM_KIND_TYPE_AND_SUBJECT
-            elif node.common_vocabulary_term.startswith('Vessels'):
+            elif self.is_huge_object(node.common_vocabulary_term):
                 node.term_kind = TERM_KIND_TYPE_AND_SUBJECT
             else:
                 node.term_kind = TERM_KIND_TYPE
@@ -287,10 +290,8 @@ class CommonVocabularyGenerator:
         for node in sorted_nodes:
             if node.term_kind == TERM_KIND_TYPE_AND_SUBJECT:
                 term = node.common_vocabulary_term
-
-                if term.startswith('Structures') or term.startswith('Transportation') or term.startswith('Vessels'):
+                if self.is_huge_object(term):
                     term = 'Object, ' + term
-
                 self.write_term_to_output(csv_output_file_writer, node, term, TERM_KIND_TYPE)
                 self.write_term_to_output(csv_output_file_writer, node, node.common_vocabulary_term, TERM_KIND_SUBJECT)
             else:
