@@ -12,10 +12,6 @@
 22009,1,"Image, Art, Illustration"
 22010,1,Set
 ,,
-"# Special instances of Type terms for very large objects like boats, bridges, and trains",,
-20901,1,"Object, Structure"
-20902,1,"Object, Transportation"
-,,
 # Special additions that don't fall into any of the categories below.,,
 # Kind 3 is Type OR Subject (only used for Objects),,
 21001,3,"Object, Fishing, Fish Trap, Lobster Trap"

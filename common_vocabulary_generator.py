@@ -287,6 +287,10 @@ class CommonVocabularyGenerator:
         for node in sorted_nodes:
             if node.term_kind == TERM_KIND_TYPE_AND_SUBJECT:
                 term = node.common_vocabulary_term
+
+                if term.startswith('Structures') or term.startswith('Transportation') or term.startswith('Vessels'):
+                    term = 'Object, ' + term
+
                 self.write_term_to_output(csv_output_file_writer, node, term, TERM_KIND_TYPE)
                 self.write_term_to_output(csv_output_file_writer, node, node.common_vocabulary_term, TERM_KIND_SUBJECT)
             else:
